@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import './App.css';
-import PlantDashboard from './PlantDashboard';
+import PlantDashboard from './components/PlantDashboard';  // Correct path based on your folder structure
+
 
 function App() {
   const [plantName, setPlantName] = useState('');
