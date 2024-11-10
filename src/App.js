@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import './App.css';
-import PlantDashboard from './PlantDashboard';
+import PlantDashboard from './components/PlantDashboard';
 
 function App() {
   const [plantName, setPlantName] = useState('');
