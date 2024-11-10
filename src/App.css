@@ -1,0 +1,63 @@
+
+
+
+.App {
+  font-family: 'Helvetica Neue', sans-serif;
+  background-image: url('components/assets/green.png');
+  
+  color: #E0E4DB; /* Light off-white text */
+  display: flex; /* Use flexbox layout */
+  flex-direction: column; /* Stack the elements vertically */
+  justify-content: center; /* Center the content vertically */
+  align-items: center; /* Center the content horizontally */
+  text-align: center;
+  padding: 0 20px; /* Ensure no extra padding */
+  min-height: 100vh; /* Make sure it covers full height */
+}
+
+
+
+h1 {
+  font-size: 40px;
+  backdrop-filter: blur(10px);
+  color: #E0E4DB; /* Light off-white text for heading */
+  margin-bottom: 10px;
+  transform: translateX(-55px); /* Shift h1 20px to the left */
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center; /* Center input and button horizontally */
+  align-items: center; /* Align items vertically */
+  margin-top: 20px; /* Space between h1 and search bar */
+}
+
+.search-bar input {
+  padding: 12px 20px;
+  font-size: 25px;
+  width: 350px;
+  border: 2px solid #E0E4DB; /* Light border for input */
+  border-radius: 30px;
+  margin-right: 10px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.search-bar input:focus {
+  border-color: #E0E4DB; /* Focused border color */
+}
+
+.search-bar button {
+  padding: 12px 20px;
+  background-color:#079463;  /* Dark green background for button */
+  color: #E0E4DB;  /* Light text color for button */
+  font-size: 25px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-bar button:hover {
+  background-color: #0c875c; /* Slightly darker green on hover */
+}
